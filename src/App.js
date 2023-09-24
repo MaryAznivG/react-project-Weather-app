@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React from "react";
 import SearchEngine from "./SearchEngine";
 import './App.css';
@@ -8,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Weather App
+          Weather App 
         </h1>
         <SearchEngine/>
       </header>
