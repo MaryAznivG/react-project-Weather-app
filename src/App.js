@@ -10,13 +10,13 @@ function App() {
         <SearchEngine />
         <footer>
           This project was coded by{" "}
-          <a href="https://www.linkedin.com/in/aznivgalstyan/" target="_blank">
+          <a href="https://www.linkedin.com/in/aznivgalstyan/" rel="noreferrer">
             Azniv Mary Galstyan
           </a>{" "}
           and is {""}
           <a
             href="https://github.com/MaryAznivG/react-project-Weather-app"
-            target="_blank"
+            rel="noreferrer"
           >
             open-sourced on Github.
           </a>
