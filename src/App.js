@@ -1,14 +1,12 @@
 import React from "react";
-import SearchEngine from "./SearchEngine";
+import Weather from "./Weather";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App">
-          <h1>Weather App</h1>
-          <SearchEngine />
+          <Weather.js />
           <footer>
             This project was coded by{" "}
             <a
@@ -25,7 +23,6 @@ function App() {
               open-sourced on Github.
             </a>
           </footer>
-        </header>
       </div>
     </div>
   );
