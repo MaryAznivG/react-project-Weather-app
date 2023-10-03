@@ -6,12 +6,12 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Los Angeles" />
 
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.linkedin.com/in/aznivgalstyan/"
+            href="href=https://www.linkedin.com/in/aznivgalstyan/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -19,7 +19,7 @@ export default function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/MaryAznivG/react-project-Weather-app/"
+            href="https://www.linkedin.com/in/aznivgalstyan/"
             target="_blank"
             rel="noopener noreferrer"
           >
