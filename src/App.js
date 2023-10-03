@@ -1,13 +1,11 @@
 import React from "react";
 import Weather from "./Weather";
-import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <Weather defaultCity="Los Angeles" />
-
         <footer>
           This project was coded by{" "}
           <a
@@ -16,16 +14,16 @@ export default function App() {
             rel="noopener noreferrer"
           >
             Azniv Mary Galstyan
-          </a>{" "}
-          and is{" "}
+          </a>
+          and is
           <a
-            href="https://www.linkedin.com/in/aznivgalstyan/"
+            href="https://github.com/MaryAznivG/react-project-Weather-app"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nooopener noreferrer"
           >
-            open-sourced on GitHub
-          </a>{" "}
-          and{" "}
+            open-sourced on Github
+          </a>
+          and
           <a
             href="https://reactweatherappamg.netlify.app/"
             target="_blank"
