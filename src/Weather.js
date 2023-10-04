@@ -6,6 +6,7 @@ import "./Weather.css";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -14,7 +15,7 @@ export default function Weather(props) {
       date: new Date(response.data.dt * 1000),
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`, //url from weather API con
+      icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
       city: response.data.name,
     });
@@ -58,6 +59,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
