@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Los Angeles" />
         <footer>
-          This project was coded by{" "}
+          This project was coded by{""}
           <a
             href="href=https://www.linkedin.com/in/aznivgalstyan/"
             target="_blank"
@@ -15,7 +15,8 @@ export default function App() {
           >
             Azniv Mary Galstyan
           </a>
-          and is
+          {""}
+          and is{""}
           <a
             href="https://github.com/MaryAznivG/react-project-Weather-app"
             target="_blank"
@@ -23,7 +24,8 @@ export default function App() {
           >
             open-sourced on Github
           </a>
-          and
+          {""}
+          and{""}
           <a
             href="https://reactweatherappamg.netlify.app/"
             target="_blank"
